@@ -118,6 +118,12 @@ div img {
 
 }
 
+iframe {
+    width: 75%;
+    height: 500px;
+    border: none;
+}
+
 .catalog {
     grid-column: 1/3;
     font-size: 30px;
@@ -325,13 +331,9 @@ footer {
 
 .catalog-button {
     width: 100%;
-    height: 100%;
-}
-
-.catalog-con a {
-    width: 100%;
     margin-left: 5px;
 }
+
 
 .catalog-product {
     padding-top: 5px;

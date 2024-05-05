@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>SuperMemo Fan Page</title>
+        <meta name="google" content="notranslate">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="project.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- favicon -->
+
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon_files/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon_files/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon_files/favicon-16x16.png">
+        <link rel="manifest" href="favicon_files/site.webmanifest">
+        <link rel="mask-icon" href="favicon_files/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    <a href="index.html">SuperMemo</a>
+                </div>
+                <a href="#" class="toggle-button" aria-label="hamburger icon">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <div class="links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="catalog.html">Catalog</a></li>
+                        <li><a href="cart.html">Cart</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="shopping-cart">
+                <div class="cart-container">
+                    <div class="cart-title">Shopping Cart</div>
+                    <div class="product-list">
+                        <div class="product-con">
+                            <div>
+                                <div class="cart-entry">
+                                    <div class="cart-image">
+                                        <img src="img/SuperMemo_19.webp" alt="SuperMemo 19">
+                                    </div>
+                                    <div class="cart-details">
+                                        <div class="counter-title">Quantity</div>
+                                        <div class="counter">
+                                            <button class="counter-button" onclick="increment()">+</button>
+                                            <div id="counting"></div>
+                                            <button onclick="decrement()" class="counter-button">-</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cart-label">
+                                    <div>SuperMemo 19</div>
+                                    <div>$70</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="cart-entry">
+                                    <div class="cart-image">
+                                        <img src="img/SuperMemo_19.webp" alt="SuperMemo 19">
+                                    </div>
+                                    <div class="cart-details">
+                                        <div class="counter-title">Quantity</div>
+                                        <div class="counter">
+                                            <button class="counter-button" onclick="increment1()">+</button>
+                                            <div id="counting-1"></div>
+                                            <button onclick="decrement1()" class="counter-button">-</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cart-label">
+                                    <div>SuperMemo 19</div>
+                                    <div>$70</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="cart-entry">
+                                    <div class="cart-image">
+                                        <img src="img/SuperMemo_19.webp" alt="SuperMemo 19">
+                                    </div>
+                                    <div class="cart-details">
+                                        <div class="counter-title">Quantity</div>
+                                        <div class="counter">
+                                            <button class="counter-button" onclick="increment2()">+</button>
+                                            <div id="counting-2"></div>
+                                            <button onclick="decrement2()" class="counter-button">-</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cart-label">
+                                    <div>SuperMemo 19</div>
+                                    <div>$70</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="cart-entry">
+                                    <div class="cart-image">
+                                        <img src="img/SuperMemo_19.webp" alt="SuperMemo 19">
+                                    </div>
+                                    <div class="cart-details">
+                                        <div class="counter-title">Quantity</div>
+                                        <div class="counter">
+                                            <button class="counter-button" onclick="increment3()">+</button>
+                                            <div id="counting-3"></div>
+                                            <button onclick="decrement3()" class="counter-button">-</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cart-label">
+                                    <div>SuperMemo 19</div>
+                                    <div>$70</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="cart-entry">
+                                    <div class="cart-image">
+                                        <img src="img/SuperMemo_19.webp" alt="SuperMemo 19">
+                                    </div>
+                                    <div class="cart-details">
+                                        <div class="counter-title">Quantity</div>
+                                        <div class="counter">
+                                            <button class="counter-button" onclick="increment4()">+</button>
+                                            <div id="counting-4"></div>
+                                            <button onclick="decrement4()" class="counter-button">-</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cart-label">
+                                    <div>SuperMemo 19</div>
+                                    <div>$70</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkout-box">
+                            <div class="cart-title checkout">Checkout</div>
+                            <div class="checkout-details">
+                                <div>Cost</div>
+                                <div>$200</div>
+                                <div>Tax</div>
+                                <div>$400</div>
+                                <div>Shipping</div>
+                                <div>$500</div>
+                                <div>Total</div>
+                                <div>$10000</div>
+                            </div>
+                            <button class="checkout-button" onclick="fnalert()">Checkout</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="logo">
+                <a href="index.html">SuperMemo</a>
+            </div>
+            <div class="right-box">
+                <div class="about"><a href="about.html">About</a></div>
+                <div class="contact-box">
+                    <h1>Contact Information</h1>
+                    <div>
+                        Email: <a href="mailto:woz2024@supermemo.org">woz2024@supermemo.org</a>
+                    </div>
+                    <div>Website: <a href="https://supermemo.guru/wiki/SuperMemo_Guru">supermemo.guru</a></div>
+                </div>
+                <div class="contact-button">
+                    <a href="contact.html">
+                        <i class="fa fa-address-book" aria-hidden="true"></i>
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="nav.js"></script>
+    </body>
+
+</html>

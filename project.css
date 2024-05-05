@@ -146,7 +146,7 @@ iframe {
 }
 
 .buy-con .price {
-    width: 25%;
+    width: 50%;
     border: 3px solid;
     border-radius: 5px;
     margin-right: 5px;
@@ -234,6 +234,7 @@ footer {
     color: white;
     margin-top: 20px;
     position: relative;
+    min-width: 100%;
 }
 
 .contact-box {
@@ -326,7 +327,7 @@ footer {
 
 .catalog-price {
     border: 2px solid black;
-    width: 35%;
+    min-width: 50%;
     border-radius: 5px;
     padding: 10px;
 }
